@@ -1,0 +1,246 @@
+@media (max-width: 1200px) {
+  html {
+    font-size: 58%;
+  }
+}
+@media (max-width: 1100px) {
+  .container {
+    padding: 4.8rem;
+  }
+  nav {
+    padding: 0 4.8rem;
+  }
+  .home-content {
+    width: 60%;
+  }
+  .service-content-box {
+    padding: 2.4rem;
+  }
+  .about-img-box img {
+    width: 120%;
+  }
+  .btn-left {
+    left: 5%;
+  }
+  .btn-right {
+    right: 5%;
+  }
+  .footer-flex {
+    gap: 4.8rem;
+  }
+}
+@media (max-width: 1000px) {
+  .container {
+    max-width: 850px;
+  }
+  .navlist {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: 0.5s;
+    height: 100vh;
+    width: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4.8rem;
+    background-color: var(--primary-color);
+  }
+  .nav-open {
+    width: 30%;
+  }
+  .navlist li a:hover,
+  .navlist li a.active {
+    color: black;
+  }
+  .navlist li a {
+    color: white;
+  }
+  .navlist li a:hover {
+    color: white;
+  }
+
+  .menu-bar {
+    display: block;
+  }
+  .home-container {
+    height: auto;
+    overflow: hidden;
+  }
+  .home-content-box {
+    height: auto;
+    margin-top: 6.4rem;
+    padding: 3.4rem 0;
+    flex-direction: column;
+  }
+  .home-content {
+    width: 80%;
+    text-align: center;
+    margin-bottom: 4.8rem;
+  }
+  .home-img {
+    width: 80%;
+  }
+  .title-content {
+    width: 70%;
+  }
+  .service-content-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-content-box {
+    width: 80%;
+  }
+  .about-img-box {
+    display: none;
+  }
+  .process-content-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .achievement-container {
+    grid-template-columns: 1fr;
+    gap: 4.8rem;
+  }
+  .achievement-img {
+    margin: auto;
+  }
+  .testimonial-content {
+    width: 70%;
+  }
+  .btn-left {
+    left: 0;
+  }
+  .btn-right {
+    right: 0;
+  }
+  .expert-image-container {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 60rem;
+    margin: 4.8rem auto;
+  }
+  .portfolio-images {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 80rem;
+    margin: 4.8rem auto;
+  }
+  .pricing-cards {
+    flex-direction: column;
+    max-width: 35rem;
+    margin: 6.4rem auto;
+    gap: 4.8rem;
+  }
+  .blog-container {
+    flex-direction: column;
+    max-width: 40rem;
+    margin: 4.8rem auto;
+  }
+  .contact-info {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 4.8rem;
+  }
+  .footer-container {
+    flex-direction: column;
+    gap: 6.4rem;
+  }
+  .footer-contents {
+    max-width: 80rem;
+  }
+  .footer-flex {
+    gap: 6.4rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .primary-heading {
+    font-size: 2.4rem;
+  }
+  .home-content {
+    width: 95%;
+  }
+  .nav-open {
+    width: 50%;
+  }
+  .home-img {
+    width: 95%;
+  }
+  .home-main-heading {
+    font-size: 3.5rem;
+  }
+  .title-content {
+    width: 90%;
+  }
+  .service-content-container {
+    grid-template-columns: 1fr;
+  }
+  .about-content-box {
+    width: 100%;
+  }
+  .testimonial-content {
+    width: 80%;
+    height: 32rem;
+  }
+  .form-flex {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}
+@media (max-width: 600px) {
+  .portfolio-images {
+    grid-template-columns: 1fr;
+    max-width: 45rem;
+  }
+  .contact-info {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 500px) {
+  html {
+    font-size: 56%;
+  }
+  header {
+    padding: 2rem 0;
+  }
+  nav {
+    padding: 0 3.2rem;
+  }
+
+  .nav-open {
+    width: 100%;
+  }
+  .container {
+    padding: 4.8rem 3.2rem;
+  }
+  .home-content {
+    width: 100%;
+  }
+  .process-content-container {
+    grid-template-columns: 1fr;
+  }
+  .achievements {
+    grid-template-columns: 1fr;
+    gap: 2.4rem;
+  }
+  .testimonial-content {
+    height: 35rem;
+  }
+  .expert-image-container {
+    grid-template-columns: 1fr;
+    max-width: 35rem;
+  }
+  .pricing-card {
+    padding: 2.4rem;
+  }
+}
+@media (max-width: 400px) {
+  .title-content {
+    width: 100%;
+  }
+  .container {
+    padding: 3.2rem 1.2rem;
+  }
+  .testimonial-content {
+    height: 40rem;
+  }
+}
