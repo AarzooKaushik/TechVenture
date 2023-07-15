@@ -223,27 +223,6 @@ const setError = (selector, key) => {
   span.previousElementSibling.innerText = validate[selector](key);
 };
 
-// form.addEventListener("submit", (e) => {
-//   e.preventDefault();
-//   let tempObj = {
-//     username: username.value,
-//     number: number.value,
-//     email: email.value,
-//   };
-
-//   Object.keys(validate).forEach((item) => {
-//     setError(item, tempObj[item]);
-//   });
-// });
-
-// Object.keys(tempObj).forEach((key) => {
-//   const node = document.querySelector(`#${key}`);
-//   node.addEventListener("change", (e) => {
-//     setError(key, e.target.value);
-//   });
-// });
-// ... Existing code ...
-
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   let tempObj = {
