@@ -261,6 +261,13 @@ form.addEventListener("submit", (e) => {
     }
   });
 
+  Object.keys(tempObj).forEach((key) => {
+    const node = document.querySelector(`#${key}`);
+    node.addEventListener("change", (e) => {
+      setError(key, e.target.value);
+    });
+  });
+
   if (!hasError) {
     alert("form submitted");
   }
