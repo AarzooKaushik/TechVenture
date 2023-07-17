@@ -248,6 +248,7 @@ form.addEventListener("submit", (e) => {
   });
 
   if (!hasError) {
+    form.reset();
     alert("form submitted");
   }
 });
